@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css\style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="form-wrapper">
+      <div class="form">
+        <div class="form-a__items">
+          <a href="#" class="form-a form-a-1">Описание</a>
+          <a  href="#" class="form-a form-a-2">Детали</a>
+          <a  href="#" class="form-a form-a-3">Отзывы</a>
+        </div>
+        <div class="form-container">
+          <p class="form-text">Оставьте свой отзыв на "Ароматичекие саше"</p>
+          <form action="">
+            <textarea name="" id="" class="textarea" cols="30" rows="10" required placeholder="Ваш отзыв*"></textarea>
+            <div class="form-inputs">
+              <input type="text" class="form-input form-input-name" name="" id="" required placeholder="Имя*"/>
+              <input type="tel" class="form-input form-input-telephone" name="" id="" required placeholder="Телефон*"/>
+              <input type="email" class="form-input form-input-email" name="" id="" placeholder="Email"/>
+            </div>
+          
+          <div class="items-after__form">
+            <button class="after__form-button" type="submit">Отправить</button>
+            <input type="checkbox" id="check" />
+            <label for="check">Сохранить моё имя, email и адрес сайта в этом браузере для последующих моих комментариев</label>
+          </div>
+          </form>
+          <p class="form-reviews-title">Другие отзывы на "Ароматическое саше"</p>
+          <div class="form-review form-review-1">
+            <div class="form-review-title">
+              <p class="form-review-title__name">Ксения</p>
+              <p class="form-review-title__date">25.05.2021</p>
+            </div>
+            <p class="form-review-discription">Равным образом, семантический разбор внешних противодействий играет важную роль в формировании вывода текущих активов. Противоположная точка зрения подразумевает, что явные признаки победы институционализации, превозмогая сложившуюся непростую экономическую ситуацию, объединены в целые кластеры себе подобных. Являясь всего лишь частью общей картины, многие известные личности представлены в исключительно положительном свете.</p>
+          </div>
+          <div class="form-review form-review-2">
+            <div class="form-review-title">
+              <p class="form-review-title__name">Борис</p>
+              <p class="form-review-title__date">13.05.2021</p>
+            </div>
+            <p class="form-review-discription">Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: начало повседневной работы по формированию позиции предоставляет широкие возможности для экономической целесообразности принимаемых решений. Следует отметить, что семантический разбор внешних противодействий играет определяющее значение для соответствующих условий активизации. Предварительные выводы неутешительны: консультация с широким активом создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса экспериментов, поражающих по своей масштабности и грандиозности.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="form-2-wrapper">
+      <div class="form-2">
+      <h3 class="form-title">Способ получения</h3>
+      <form action="" class="form-2__items">
+<input type="text" name="" id="" class="input-city" placeholder="Город">
+<select name="" id="" class="select-delivery">
+  <option value="">Почта России</option>
+  <option value="">Курьером</option>
+</select>
+<div class="form-2-adress">
+  <input type="text" name="" id="" class="input_adress-1 input_adress-street" placeholder="Улица">
+  <input type="text" name="" id="" class="input_adress input_adress-house" placeholder="Дом">
+  <input type="text" name="" id="" class="input_adress input_adress-appartment" placeholder="Квартира">
+  <input type="text" name="" id="" class="input_adress input_adress-index" placeholder="Индекс">
+</div>
+<input type="text" placeholder="Добавить комментарий" class="input-comment">
+<h3 class="form-2-second-title">Данные получателя</h3>
+<div class="form-2-fio">
+  <input type="text" name="" id="" class="input-fio" placeholder="Фамилия">
+  <input type="text" name="" id="" class="input-fio" placeholder="Имя">
+  <input type="text" name="" id="" class="input-fio" placeholder="Отчество">
+</div>
+<input type="text" name="" id="" class="input-number" placeholder="Номер телефона">
+<p class="form-2-phone-discription">По этому номеру телефона мы свяжемся с вами для подтверждения заказа</p>
+<input type="text" name="" id="" placeholder="E-mail" class="input-email">
+<p class="form-2-email-discription">На эту почту вам придет пиьмо с составом заказа, а так же трек-номер для его отслеживания</p>
+<div class="form-2-checkbox">
+<input type="checkbox" id="check">
+<label for="check">Подписаться на рассылку новинок и акций</label>
+</div>
+<h3 class="form-2-third-title">Способ оплаты</h3>
+<div>
+  <input type="radio" name="" id="cash">
+  <label for="#cash">Оплата при получен наличными или картой</label>
+</div>
+<div>
+  <input type="radio" name="" id="card">
+  <label for="#card">Оплата банковской картой онлайн</label>
+</div>
+  </div>
+  </section>
+  </body>
+</html>
